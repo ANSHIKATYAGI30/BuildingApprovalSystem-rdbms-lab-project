@@ -3,7 +3,7 @@ $host = "127.0.0.1";
 $port = 3306;
 $dbname = "buildingapprovaldb";
 $username = "root";
-$password = "Kheer@30.mitha"; // Enter your MySQL password if you have one
+$password = "**************";
 
 try {
     $pdo = new PDO(
