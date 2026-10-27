@@ -3,7 +3,7 @@
 $host = "localhost";
 $dbname = "buildingapprovaldb";
 $username = "root";
-$password = "Kheer@30.mitha";
+$password = "************";
 
 try {
     $pdo = new PDO(
