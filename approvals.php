@@ -8,7 +8,7 @@ require_once "db.php";
 $message = "";
 $messageType = "";
 
-// Display messages after deletion
+// Displays messages after deletion
 if (isset($_SESSION["delete_message"])) {
     $message = $_SESSION["delete_message"];
     $messageType = $_SESSION["delete_status"] ?? "info";
